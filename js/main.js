@@ -130,6 +130,7 @@ function playMusic() {
   if(Config.music) {
     var audio = new Audio('music/' + Config.music);
     audio.volume = Config.musicvolume
+    audio.loop = true;
     audio.play();
   }
 }
