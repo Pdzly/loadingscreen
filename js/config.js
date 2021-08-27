@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "ROC";
+Config.title = "REVENGE OF CLONES";
 
 /**
  * Enable map text in the top left corner of the screen?
@@ -27,15 +27,15 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Willkommen!",
-  "Wir hoffen dir gefällt der Server!"
+  "www.forum.de",
+  "Serious RP",
 ];
 
 /**
  * How many miliseconds for each announcement?
  * only works if enableAnnouncements = true
  */
-Config.announcementLength = 3000;
+Config.announcementLength = 5000;
 
 /**
  * Image Filename
@@ -57,4 +57,4 @@ Config.music = "music.ogg";
  * Music Volume
  * 0 = 0%, 1 = 100%
  */
-Config.musicvolume = 0.01;
+Config.musicvolume = 0.025;

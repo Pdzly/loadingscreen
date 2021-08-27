@@ -39,7 +39,7 @@ function GameDetails(
   }
 
   if (Config.enableSteamID) {
-    $("#steamid").html(steamid);
+    $("#steamid").html("SteamID: " + steamid);
   }
   $("#steamid").fadeIn();
 }
